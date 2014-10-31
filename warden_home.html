@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+	<link rel="stylesheet" type="text/css" href="demo.css" />
+  <TITLE>JMI HOSTEL MANAGEMENT SYSTEM</TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="RISHI RAUSHAN">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ <style>
+ 
+body{height:500px;background-color:LightGray;}
+
+#header
+{
+	color:DarkRed;
+	background-color:MediumSeaGreen;
+	font-size:30px;
+	font-family:Times New Roman;
+	position:absolute;
+	top:-20px;
+	left:0px;
+	text-align:center;
+	height: 150px;
+	width:1365px;
+ -moz-border-radius:40px 40px/40px 40px;
+ border-radius:40px 40px/40px 40px;
+}
+
+ 
+#image
+{
+position:absolute;
+top:0px;
+left:50px;
+}
+ 
+#h2
+{
+color:RoyalBlue;
+text-decoration:underline;
+font-size:30px;
+position:absolute;top:200px;left:500px;
+text-align:center;
+}
+
+ #admin_section
+ {
+ position:absolute;
+ top:300px;
+ left:550px;
+ font-size:30px;
+ }
+ 
+#list1
+{
+position:absolute;top:400px;left:10px;
+list-style-type:none;
+}
+
+#list2
+{
+position:absolute;top:400px;left:410px;
+list-style-type:none;
+}
+
+#list3
+{
+position:absolute;top:400px;left:820px;
+list-style-type:none;
+}
+
+a:link{text-decoration:none;color:#9900CC}
+a:link:hover{color:#FF6600;font-size:30px;}
+ 
+ #admin_option
+ {
+ font-size:25px;background-color:DarkSalmon;
+ text-align:center;
+ text-decoration:none;
+ color:#990099;
+ height: 40px;
+ width: 350px;
+ border:5px solid gray;
+ -moz-border-radius: 40px 40px 40px 40px;
+ border-radius: 40px 40px 40px 40px;
+ }
+ 
+ #logout_button
+{
+ color:#009900;
+ font-size:20px;
+ position:absolute;top:270px;left:1150px;
+ text-align:center;
+ height:40px;
+ width:100px;
+ -moz-border-radius:40px 40px/40px 40px;
+ border-radius:40px 40px/40px 40px;
+}
+ </style>
+ </HEAD>
+ <BODY>
+	<h1 id="header">
+		<p>JMI HOSTEL MANAGEMENT SYSTEM</p>
+	</h1>
+	<IMG id="image" SRC="logo.png"/>
+ <h2 id="h2">Welcome Admin !</h2>
+<p id="admin_section">Admin Section</p> 
+ <ul id="list1">
+ <p><li id="admin_option"><a href="view_information.html">View Information</a></li></p>
+ <p><li id="admin_option"><a href="delete_information.html">Delete Information</a></li></p>
+  <p><li id="admin_option"><a href="employee.html">Add Employee</a></li></p>
+ </ul> 
+<ul id="list2">
+<p><li id="admin_option"><a href="new_account.html">Allot Hostel</a></li></p>
+ <p><li id="admin_option"><a href="update_information.html">Update Information</a></li></p>
+ <p><li id="admin_option"><a href="delete_employee.html">Delete Employee Information</a></li></p>
+ </ul>
+<ul id="list3">
+ <p><li id="admin_option"><a href="mess_provide.html">Provide Mess</a></li></p>
+ <p><li id="admin_option"><a href="update_hostel_information.html">Update Hostel Information</a></li></p>
+ </ul>
+ <form id="logout_button" action="http://localhost:7001/hms/index.html">
+<input type="submit" value="Logout" name="logout"/>
+ </form>
+ </BODY>
+</HTML>
